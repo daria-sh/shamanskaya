@@ -305,7 +305,7 @@ ul#nav li.current a {
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
+.education, .work, .skill {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
@@ -343,7 +343,7 @@ ul#nav li.current a {
    position: relative;
 	margin-bottom: 60px;
 	background: #ccc;
-	height: 42px;
+	height: 15px;
 	border-radius: 3px;
 }
 .bars li em {
@@ -364,7 +364,7 @@ ul#nav li.current a {
    padding-right: 24px;
 	background: #313131;
    display: inline-block;
-	height: 42px;
+	height: 15px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
@@ -388,7 +388,16 @@ ul#nav li.current a {
 	width: 50%;
 }
 .php{
-	width: 40%;
+	width: 60%;
+}
+.linux{
+   width: 95%;
+}
+.drupal7{
+   width: 90%;
+}
+.nginx{
+   width: 95%;
 }
 
 @-moz-keyframes photoshop {
